@@ -1,0 +1,15 @@
+Source: bu-print-config
+Section: main/config
+Priority: extra
+Maintainer: Kyle Brogle <broglek@bu.edu>
+Build-Depends: cdbs, debhelper (>= 7.4.15ubuntu1)
+Standards-Version: 3.8.4
+
+Package: bu-print-config
+Architecture: all
+Pre-Depends: debconf
+Depends: ${shlibs:Depends}, ${misc:Depends}, cups, sysv-rc, adduser
+Description: Package to configure BU printers
+ Package to configure public printers on Boston University
+ Campus.
+	   
