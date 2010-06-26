@@ -1,0 +1,12 @@
+bu-printing-config (0.02) unstable; urgency=low
+
+  * Added list of current printers, postinst to install them all
+
+ -- Kyle Brogle <broglek@bu.edu>  Sat, 26 Jun 2010 14:33:51 -0400
+
+bu-printing-config (0.01) unstable; urgency=low
+
+  * First Version, installs and configures stuvi2-ds printer
+
+ -- Kyle Brogle <broglek@bu.edu>  Sat, 26 Jun 2010 13:44:18 -0400
+
