@@ -7,10 +7,7 @@ Standards-Version: 3.8.4
 
 Package: bu-printing-config
 Architecture: all
-Pre-Depends: debconf
 Depends: ${shlibs:Depends}, ${misc:Depends}, cups, sysv-rc, adduser
-Provides: ${diverted-files}
-Conflicts: ${diverted-files}
 Description: Package to configure BU printers
  Package to configure public printers on Boston University
  Campus.
