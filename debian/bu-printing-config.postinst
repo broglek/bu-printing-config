@@ -28,7 +28,7 @@ case "$1" in
 	cat /usr/lib/bu-printing-config/printers.lst | #Input from file
 	while read line
 	do
-	    lpadmin -E -p $line -v smb://myprint.bu.edu/$line -P /usr/share/ppd/cups-included/postscript.ppd
+	    lpadmin -E -p $line -v smb://myprint.ad.bu.edu/$line -P /usr/share/ppd/cups-included/postscript.ppd
 	    cupsaccept $line
 	    cupsenable $line
 	done
